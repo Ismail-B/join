@@ -13,17 +13,17 @@ export const appConfig: ApplicationConfig = {
     importProvidersFrom(
       provideFirebaseApp(() =>
         initializeApp({
-          projectId: 'join-82c5c',
-          appId: '1:27899760680:web:a69a8cecc0f0971858a51d',
-          storageBucket: 'join-82c5c.firebasestorage.app',
-          apiKey: 'AIzaSyBmPjsLf9R76U3csMNtLgAhffJOZeh9Rvc',
-          authDomain: 'join-82c5c.firebaseapp.com',
-          messagingSenderId: '27899760680',
+          apiKey: "AIzaSyAtUqc_9u90fYf5TyYBzoywgdsBEY23wd4",
+          authDomain: "join-e2ab3.firebaseapp.com",
+          projectId: "join-e2ab3",
+          storageBucket: "join-e2ab3.firebasestorage.app",
+          messagingSenderId: "898575240677",
+          appId: "1:898575240677:web:f215fae19410d2a8f7330c"
         })
       )
     ),
     importProvidersFrom(provideFirestore(() => getFirestore())),
     importProvidersFrom(provideAuth(() => getAuth())),
-    provideAnimationsAsync(),
+    provideAnimationsAsync(), 
   ],
 };

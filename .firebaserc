@@ -6,9 +6,16 @@
           "join-82c5c"
         ]
       }
+    },
+    "join-e2ab3": {
+      "hosting": {
+        "join": [
+          "join-e2ab3"
+        ]
+      }
     }
   },
   "projects": {
-    "default": "join-82c5c"
+    "default": "join-e2ab3"
   }
 }
