@@ -15,6 +15,7 @@ section{
 .tel-numb{
     @include setFlex($jc: flex-start);
     gap: 8px;
+    font-size: 20px;
 }
 
 .e-mail{
